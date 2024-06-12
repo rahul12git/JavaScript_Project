@@ -1,0 +1,48 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  background-color: skyblue;
+  margin-top: 10%;
+}
+  .irf{
+    margin-left: 30%;
+  }
+  
+  body{
+   
+    background-color: yellowgreen;
+    color: black;
+
+  }
+  #reg{
+    color: black;
+    margin-left: 19%;
+   
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  
+  .password-strength-meter {
+    margin-bottom: 15px;
+  }
+  
+  #passwordStrength {
+    width: 100%;
+  }
+  #sub{
+    margin-left: 40%;
+  }
+  

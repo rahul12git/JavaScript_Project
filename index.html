@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <button type="button" onclick="window.location.href='https://www.youtube.com'">Go to the link</button> 
+
+
+
+<h1 >What is javaScript </h1>
+<div id="hoverElement" onmouseover="handleMouseOver()">
+    <p>JavaScript, often abbreviated as JS, is a programming language and core technology of the World Wide Web,<br>
+    alongside HTML and CSS. As of 2024, 98.9% of websites use JavaScript on the client side for webpage behavior, 
+    often incorporating third-party libraries.</p>
+    </div>  
+<script>
+    
+
+    // alert("Hello, JavaScript!");
+    function handleMouseOver() {
+    alert("Mouse over the element!");
+   
+  }
+
+</script>
+
+
+
+    <input type="number" id="num1" name="num1" placeholder="enter number 1">
+    <input type="number" id="num2" name="num2" placeholder="enter number 2">
+
+    <button onclick="addNumbers()">Add</button>
+    <p id="result"></p>
+    <script>
+    function addNumbers() {
+        var x = document.getElementById("num1").value;
+        var y = document.getElementById("num2").value;
+        var z = Number(x) + Number(y);
+        document.getElementById("result").innerHTML = "Result: " + z;
+    }
+    </script>
+
+<h2>addEventListener()</h2>
+
+<button id="myBtn">Try it</button>
+
+<h1 id="demo"></h1>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", displayDate);
+
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+    </body>
+</html> 

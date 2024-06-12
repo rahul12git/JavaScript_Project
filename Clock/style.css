@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clock-dial {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid blue;
+    margin: 0 auto;
+    position: relative;
+}
+
+.point {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 230px;
+}
+
+.hour {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+}
+
+.hour-1 {
+    top: 40px;
+    right: 130px;
+}
+
+.hour-2 {
+    top: 125px;
+    right: 45px;
+}
+
+.hour-3 {
+    top: 235px;
+    right: 10px;
+}
+
+.hour-4 {
+    top: 345px;
+    right: 45px;
+}
+
+.hour-5 {
+    top: 430px;
+    right: 130px;
+}
+
+.hour-6 {
+    top: 450px;
+    right: 240px;
+}
+
+.hour-7 {
+    top: 430px;
+    right: 340px;
+}
+
+.hour-8 {
+    top: 380px;
+    right: 430px;
+}
+
+.hour-9 {
+    top: 235px;
+    left: 10px;
+}
+
+.hour-10 {
+    top: 105px;
+    left: 40px;
+}
+
+.hour-11 {
+    top: 50px;
+    left: 110px;
+}
+
+.hour-12 {
+    top: 10px;
+    left: 230px;
+}
+.brand{
+    font-size: 20px;
+    font-weight: bold;
+    color: violet;
+    position: absolute;
+    top: 90px;
+    left: 42.5%;
+}
+.minute-hand-wrapper {
+    width: 400px;
+    height: 400px;
+    
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.minute-hand{
+position: relative;
+}
+.minute-hand .hand{
+    width: 4px;
+    height: 210px;
+    background-color: blue;
+    position: absolute;
+    left: 198px;
+}
+
+.minute-hand .arrow{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 190px;
+    top: -7px;
+}
